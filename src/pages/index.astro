@@ -1,17 +1,23 @@
 ---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
 
+const articles = (await getCollection('articles', ({ data }) => !data.draft))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="BizLifetime | Practical ideas for a business built to last" description="Clear, practical ideas for building and running a steadier small business over the long term.">
+	<section class="home-intro" aria-labelledby="home-title">
+		<p class="eyebrow">A thoughtful guide for small business owners</p>
+		<h1 id="home-title">Build a business that works for the long run.</h1>
+		<p class="intro-copy">Practical ideas for steadier systems, better customer relationships, and more thoughtful growth.</p>
+	</section>
+	<section class="article-section" aria-labelledby="latest-title">
+		<div class="section-heading"><div><p class="eyebrow">Ideas for the journey</p><h2 id="latest-title">Latest articles</h2></div><span class="article-count">{articles.length} articles</span></div>
+		{articles.length > 0 ? <div class="article-grid">
+			{articles.map((article) => <article class="article-card">
+				<a class="card-image-link" href={`/articles/${article.id}/`} aria-label={`Read ${article.data.title}`}><img src={article.data.image} alt={article.data.imageAlt} width="720" height="405" loading="lazy" /></a>
+				<div class="card-body"><p class="card-category">{article.data.category}</p><h3><a href={`/articles/${article.id}/`}>{article.data.title}</a></h3><p class="card-description">{article.data.description}</p><a class="read-more" href={`/articles/${article.id}/`}>Read more <span aria-hidden="true">→</span></a></div>
+			</article>)}
+		</div> : <p class="empty-state">The first articles are on their way. Please check back soon.</p>}
+	</section>
+</BaseLayout>

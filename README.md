@@ -1,43 +1,31 @@
-# Astro Starter Kit: Minimal
+# BizLifetime
+
+A lightweight Astro blog about building a steady small business for the long term.
+
+## Local development
 
 ```sh
-npm create astro@latest -- --template minimal
+npm install
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Articles
 
-## 🚀 Project Structure
+Write articles as Markdown files in `src/content/articles/`. Each article needs a title, description, publication date, category, image path, image alt text, and draft flag in its frontmatter. New articles marked `draft: false` appear on the home page, receive a page at `/articles/<filename>/`, and are included in the generated `/sitemap.xml`.
 
-Inside of your Astro project, you'll see the following folders and files:
+Keep `draft: true` until an article is ready to publish. The sitemap and home page exclude drafts.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+## Build and preview
+
+```sh
+npm run build
+npm run preview
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+The static production site is generated in `dist/`. Cloudflare Pages uses `npm run build` as its build command and `dist` as its build output directory.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## SEO files
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- `src/pages/robots.txt.ts` generates `/robots.txt` and points to `https://bizlifetime.com/sitemap.xml`.
+- `src/pages/sitemap.xml.ts` generates an XML sitemap containing the home page and published articles at build time.
+- `astro.config.mjs` sets the canonical production site URL used in page metadata and sitemap links.

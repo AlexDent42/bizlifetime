@@ -1,33 +1,58 @@
 ---
 title: "What to Do When Your Business Has Too Many Priorities"
-description: "A simple review can help separate this week's important work from ideas that can wait."
-pubDate: 2026-09-17
+description: "If everything is urgent, your priorities are not helping. Use a simple filter to choose what gets attention now and what can wait."
+pubDate: 2026-09-27
 category: "Planning"
-image: "/images/business-notebook.svg"
-imageAlt: "A short prioritized task list on a clean desk"
+image: "/images/too-many-priorities.webp"
+imageAlt: "A business cat choosing one task from a crowded stack of notes"
 draft: false
 ---
 
-Small business owners often see more possible improvements than they have time to make. A new service, a website update, a customer request, and an overdue process change can all feel important at once. The challenge is to choose what gets attention now.
+## If every task is a priority, what are you actually choosing?
 
-## Write down every open commitment
+The new website, the overdue invoice, a customer request, a fresh product idea, and the process you meant to fix last month can all feel important. The uncomfortable truth is that keeping every option open is still a decision. It means your attention gets divided, deadlines collide, and the work you care about most may keep moving to “next week.”
 
-Capture projects, promises to customers, recurring responsibilities, and ideas that keep returning to mind. Include work you have agreed to do, not only tasks you personally find interesting.
+You do not need a perfect productivity system. You need a fair way to decide what deserves attention first, and a visible place to put the rest so it stops competing for your memory.
 
-## Separate obligations from opportunities
+## One fact about doing everything at once
 
-Some work has a clear deadline or affects a customer, payment, or legal responsibility. Other work may be valuable but has no immediate consequence if it waits. Mark the difference so an interesting idea does not quietly displace an essential commitment.
+The American Psychological Association summarizes research showing that people lose time when switching between tasks, with larger switching costs for more complex tasks and for tasks that are unfamiliar. That does not mean every interruption can be eliminated. It does mean a day spent bouncing among important projects can quietly cost more than it appears to. [APA: Multitasking: Switching costs](https://www.apa.org/topics/research/multitasking)
 
-## Choose a short list of outcomes
+## A simple way to sort the pile
 
-Pick a few outcomes for the next week or two. Consider customer impact, financial effect, effort, and dependencies. If an important task is blocked, identify what would unblock it rather than letting it remain a vague item.
+### 1. Write down every open loop
 
-## Decide what you will pause
+Put active projects, promises, decisions, and tempting ideas in one list. Include the small tasks that keep returning to your mind. Do not rank as you capture them. The point is to get the work out of your head before deciding what it means.
 
-Every yes uses time. Write down which ideas are being postponed and when you will review them again. This is not failure; it is a way to avoid treating every option as an active project.
+### 2. Separate commitments from possibilities
 
-## Tell people when plans change
+Mark what has a real deadline, customer promise, financial consequence, or legal requirement. Then mark the ideas that could be useful but have no current commitment attached. A promising opportunity is not automatically this week’s obligation.
 
-If a commitment needs to move, contact the affected customer or colleague early. Offer a realistic revised date and explain what is needed. Silence tends to make a manageable delay feel worse.
+Be candid about consequences. “The website needs improvement” is broad. “The booking form is broken and customers cannot schedule” is specific and likely urgent. Replacing general worry with a concrete impact often changes the order.
 
-Prioritizing is a repeated decision, not a perfect ranking you make once. Review your list regularly, especially when new work arrives or conditions change.
+### 3. Use four questions to rank the work
+
+For each item, ask:
+
+- **Impact:** What happens if this is done well?
+- **Urgency:** What gets worse if it waits?
+- **Effort:** How much time and focus will it realistically take?
+- **Dependency:** Is another person or task blocked until this is finished?
+
+These are not meant to create a fake-precise score. Use them to compare a few candidates and explain your choice. A short task that unblocks customer delivery may deserve attention before a large, exciting project with no immediate consequence.
+
+### 4. Choose a small number of active outcomes
+
+Pick one to three outcomes for the current week, depending on your capacity. Define what “done” means and reserve time for the work. If a new request comes in, decide what it replaces or whether it can wait. Adding it without making a trade-off quietly turns the plan into a wish list.
+
+### 5. Keep a “not now” list
+
+Write down the ideas you are postponing and when you will reconsider them. This is different from forgetting them. A review date lets you return to an idea with fresh information, while protecting the work already underway.
+
+If someone else is waiting, close the loop. Tell them what you can do, when you can do it, or what alternative is available. Silence often creates more pressure than a clear no or a realistic later date.
+
+## Recap: choose, park, communicate
+
+When priorities multiply, capture the work, identify real commitments, compare impact and effort, and choose only the outcomes your capacity can support. Put the rest somewhere you will revisit. Then communicate changes to anyone affected.
+
+The goal is not to do everything faster. It is to make a visible choice about what matters now, so your attention and your promises have a chance to line up.
